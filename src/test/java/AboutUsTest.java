@@ -6,9 +6,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by Amol on 3/29/17.
- */
 public class AboutUsTest {
 
     WebDriver driver;

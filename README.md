@@ -4,4 +4,4 @@ RUN - mvn clean install
 
 #Assumption
 
-Firefox is the primary browser
+Browser - Firefox is the primary browser

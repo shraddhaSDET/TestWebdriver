@@ -4,9 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by Amol on 3/29/17.
- */
 public class GooglePage {
 
     WebDriver driver;

@@ -6,9 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-/**
- * Created by Amol on 3/29/17.
- */
 public class AboutUsPage {
 
     WebDriver driver;

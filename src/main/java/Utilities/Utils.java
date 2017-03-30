@@ -10,9 +10,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Amol on 3/29/17.
- */
+
 public class Utils {
 
     /**
@@ -38,7 +36,10 @@ public class Utils {
         return value;
     }
 
-    // WebDriver Initialization
+    /**
+     * Initializes Webdriver
+     * @return
+     */
     public WebDriver Initialize() {
         WebDriver driver = null;
         if (getValue("config", "Browser").equals("Firefox")) {
