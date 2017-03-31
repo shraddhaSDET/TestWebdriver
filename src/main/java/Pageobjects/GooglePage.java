@@ -19,7 +19,13 @@ public class GooglePage {
 
     public void enterGoogleSearch(String text) {
         driver.findElement(By.xpath(".//input[@name='q']")).click();
+        driver.findElement(By.xpath(".//input[@name='q']")).clear();
         driver.findElement(By.xpath(".//input[@name='q']")).sendKeys(text);
         driver.findElement(By.xpath(".//input[@name='q']")).sendKeys(Keys.ENTER);
+    }
+
+    public boolean googleUrlValidator(String keyword) {
+        String uri = keyword.replace(" ", "+");
+        return driver.getCurrentUrl().contains(uri);
     }
 }
